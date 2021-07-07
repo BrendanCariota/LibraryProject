@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Object Practice</title>
+</head>
+
+<body>
+    <div class="container container--main">
+        <h1>Library</h1>  
+        <button class="btn btn--newBook">New Book</button>
+
+        <div class="container container--input inactive">
+            <form class="bookForm" action="">
+                <div class="input--container">
+                    <label for="title">Title</label>
+                    <input class="titleInput" type="text" name="title">
+                </div>
+                <div class="input--container">
+                    <label for="pages">Pages</label>
+                    <input class="pagesInput" type="number" name="pages">
+                </div>
+                <div class="input--container">
+                    <label for="author">Author</label>
+                    <input class="authorInput" type="text" name="author">
+                </div>
+                <div class="input--container">
+                    <label for="readStatus">Read?</label>
+                    <label class="radio--label" for="read">Yes</label>
+                    <input type="radio" name="readStatus" id="read" value="Yes">
+                    <label class="radio--label" for="notRead">No</label>
+                    <input type="radio" name="readStatus" id="notRead" value="No">
+                </div>
+                <button class="btn btn--addBook" type="submit">Add</button>
+            </form>
+        </div> 
+
+        <div class="container--book">
+            <!-- <div class="book">
+                <h2 class="title">The Hobbit</h2>
+                <p class="author">J.R.R Tolkien</p>
+                <p class="pages">267 Pages</p>
+                <p class="readStatus">Not Read</p>
+                <button class="btn btn--read">Read?</button>
+                <button class="btn btn--remove">Remove</button>
+            </div>
+            <div class="book">
+                <h2 class="title">Tom Sawyer</h2>
+                <p class="author">Billy Noname</p>
+                <p class="pages">543 Pages</p>
+                <p class="readStatus">Read</p>
+            </div> -->
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
